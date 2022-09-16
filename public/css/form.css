@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    text-align: left;
+}
+
+.container {
+    background-color: rgb(107, 107, 107);
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.form-ctrl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 40%;
+    padding: 7px;
+    margin: 10px;
+}
+
+input:invalid {
+    outline: 2px solid red;
+}
+
+input:valid + p{
+    display: none;
+}
+
+p {
+    width: 70%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2px;
+
+}
+
+button {
+    padding: 10px;
+    background-color: beige;
+    cursor: pointer;
+}

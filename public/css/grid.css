@@ -1,0 +1,52 @@
+
+.grid-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: grid;
+    height: 60vh;
+    width: 700px;
+    text-align: center;
+    transform: rotate(45deg);
+    grid-template-areas: 
+    "one two two"
+    "one two two"
+    "one two two"
+    "one three four"
+    "one three four"
+    "one three four"
+    "five five four"
+    "five five four"
+    "five five four";
+  }
+  
+  .one {
+    grid-area: one;
+    background-color: darkslateblue;
+    margin-right: 10px;
+  }
+  .two {
+    grid-area: two;
+    background-color: darkslateblue;
+    margin-bottom: 10px;
+  
+  }
+  .three {
+    grid-area: three;
+    background-color: darkslateblue;
+  
+  }
+  .four {
+    grid-area: four;
+    background-color: darkslateblue;
+    margin-left: 10px;
+  
+  }
+  .five {
+    grid-area: five;
+    background-color: darkslateblue;
+    margin-top: 10px;
+  
+  }
+  
+  
